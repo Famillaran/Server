@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Grade Calculator</title>
+
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Student Grade Calculator</h1>
+
+        <p class="description">
+            Enter the student's name and grades to calculate the total,
+            average, and final result.
+        </p>
+
+        <!-- Student Name -->
+        <label for="studentName">Student Name</label>
+        <input
+            type="text"
+            id="studentName"
+            placeholder="Enter student name"
+        >
+
+        <h2>Subject Grades</h2>
+
+        <!-- Subject 1 -->
+        <label for="subject1">Programming</label>
+        <input
+            type="number"
+            id="subject1"
+            min="0"
+            max="100"
+            placeholder="Enter grade (0-100)"
+        >
+
+        <!-- Subject 2 -->
+        <label for="subject2">Data Structures</label>
+        <input
+            type="number"
+            id="subject2"
+            min="0"
+            max="100"
+            placeholder="Enter grade (0-100)"
+        >
+
+        <!-- Subject 3 -->
+        <label for="subject3">Discrete Mathematics</label>
+        <input
+            type="number"
+            id="subject3"
+            min="0"
+            max="100"
+            placeholder="Enter grade (0-100)"
+        >
+
+        <!-- Subject 4 -->
+        <label for="subject4">Programming Languages</label>
+        <input
+            type="number"
+            id="subject4"
+            min="0"
+            max="100"
+            placeholder="Enter grade (0-100)"
+        >
+
+        <!-- Subject 5 -->
+        <label for="subject5">General Education</label>
+        <input
+            type="number"
+            id="subject5"
+            min="0"
+            max="100"
+            placeholder="Enter grade (0-100)"
+        >
+
+        <button id="calculateButton">
+    Calculate Grade
+</button>
+
+<button id="resetButton" class="reset-button">
+    Reset
+</button>
+
+        <!-- Result -->
+        <div id="result">
+            Your result will appear here.
+        </div>
+
+        <!-- Dynamic Typing -->
+        <div class="dynamic-box">
+
+            <h2>Dynamic Typing Demonstration</h2>
+
+            <p id="dynamicDemo">
+                Loading demonstration...
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- Connect JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
